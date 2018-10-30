@@ -1,6 +1,6 @@
 node('master'){
     stage("Obtener codigo fuente"){
-        git 'https://github.com/locoalien/python_devops.git'
+        git 'https://github.com/SebastianCl/python_devops.git'
     }
     dir(''){
         printMessage('Ejecutando Pipeline')
